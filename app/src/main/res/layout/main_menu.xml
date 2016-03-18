@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:id="@+id/npt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentLeft="true"
+    	android:text="# of Players" />"
+    <EditText android:id="@+id/npe"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/npt"
+    	android:layout_alignTop="@id/npt"
+    	android:inputType="text"
+    	android:text="5" />
+    <Button android:id="@+id/p"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/npe"
+    	android:layout_alignTop="@id/npe"
+    	android:text="PLAY"/>
+
+    <Button android:id="@+id/small"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/npt"
+    	android:text="small"/>
+    <Button android:id="@+id/medium"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/small"
+    	android:text="medium"/>
+    <Button android:id="@+id/large"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/medium"
+    	android:text="large"/>
+		
+</RelativeLayout>

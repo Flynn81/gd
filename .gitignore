@@ -38,3 +38,9 @@ captures/
 .DS_Store
 /build
 Verify if it suits
+
+/gradle
+
+*.iml
+
+.idea/
